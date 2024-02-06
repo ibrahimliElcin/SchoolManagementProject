@@ -1,0 +1,10 @@
+az\perfect\entity\School.class
+az\perfect\entity\Admin.class
+az\perfect\entity\Person.class
+az\perfect\main\SchoolManagementJDBC.class
+az\perfect\dao\inter\TeacherDaoInter.class
+az\perfect\entity\Student.class
+az\perfect\entity\Teacher.class
+az\perfect\dao\inter\StudentDaoInter.class
+az\perfect\config\AbstractDao.class
+az\perfect\dao\impl\StudentDaoImpl.class
