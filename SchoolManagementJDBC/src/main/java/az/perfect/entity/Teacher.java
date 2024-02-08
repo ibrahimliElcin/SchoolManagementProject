@@ -45,8 +45,9 @@ public class Teacher extends Person {
         this.school = school;
     }
 
-    public Teacher(int teacher_id) {
+    public Teacher(int teacher_id ) {
         this.teacher_id = teacher_id;
+        
     }
 
     public Teacher() {

@@ -4,23 +4,21 @@
  */
 package az.perfect.dao.inter;
 
-import az.perfect.entity.Teacher;
+import az.perfect.entity.School;
 import java.util.List;
 
 /**
  *
- * @author Perfect
+ * @author DESIGNER
  */
-public interface TeacherDaoInter {
-      void update(Teacher t);
+public interface SchoolDaoInter {
+    void update(School sc);
 
     void delete(int id);
 
-    void insert(Teacher t);
+    void insert(School sc);
 
-    Teacher getTeacherById(int id);
+    School getSchoolById(int id);
 
-    List<Teacher> getAllTeachers();
-    
-    Teacher getTeacherByIdAndByPassword(int id,String password);
+    List<School> getAllSchools();
 }

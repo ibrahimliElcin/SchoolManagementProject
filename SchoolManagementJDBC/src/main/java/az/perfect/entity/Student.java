@@ -30,6 +30,11 @@ public class Student extends Person {
         this.student_id = student_id;
     }
 
+    public Student(int student_id, String name, String surname, int age, String password, int teacher_id, int school_id) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+
     public int getStudent_id() {
         return student_id;
     }
